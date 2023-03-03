@@ -1,4 +1,4 @@
-# sudo docker build -t selenium_chrome:latest -f .dockerfile .
+# sudo docker build -t selenium_chrome_min:latest -f .dockerfile .
 
 FROM python:3.11.2-alpine
 
