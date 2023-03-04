@@ -4,11 +4,11 @@ This repository contains multiple Docker environments to facilitate the developm
 
 | Environment | Description | Image Size |
 | --- | --- | --- |
-| PostgreSQL 15 | Docker compose setup with a configuration file, data persistence, and an initialization script for a PostgreSQL database. | / |
-| Selenium Chrome Python Full | Provide a full ready-to-use environment for running Selenium programs with Chrome in Python. | 1.67GB |
-| Selenium Chrome Python Minimal | Provide a minimal and lightweight environment for running Selenium programs with Chrome in Python. | 497MB |
-| Selenium Firefox & Geckodriver Python Full | Provide a full ready-to-use environment for running Selenium programs with Firefox & Geckodriver in Python. | 1.45GB |
-| Nuxt 3 dev starter | Provide a development environment equipped with everything you need to build a web application based on Nuxt 3. | 276MB |
+| [PostgreSQL 15](https://github.com/MathisVerstrepen/docker_templates/tree/master/postgres-15) | Docker compose setup with a configuration file, data persistence, and an initialization script for a PostgreSQL database. | / |
+| [Selenium Chrome Python](https://github.com/MathisVerstrepen/docker_templates/tree/master/selenium/chromedriver-full) | Provide a full ready-to-use environment for running Selenium programs with Chrome in Python. | 1.67GB |
+| [Selenium Chrome Python - Minimal](https://github.com/MathisVerstrepen/docker_templates/tree/master/selenium/chromedriver-minimal) | Provide a minimal and lightweight environment for running Selenium programs with Chrome in Python. | 497MB |
+| [Selenium Firefox & Geckodriver Python](https://github.com/MathisVerstrepen/docker_templates/tree/master/selenium/firefoxdriver-full) | Provide a full ready-to-use environment for running Selenium programs with Firefox & Geckodriver in Python. | 1.45GB |
+| [Nuxt 3 dev starter](https://github.com/MathisVerstrepen/docker_templates/tree/master/nuxt3/nuxt-dev) | Provide a development environment equipped with everything you need to build a web application based on Nuxt 3. | 276MB |
 
 Each environment is provided as a separate Docker image or/and compose file, making it easy to select and use the environment that fits your needs.
 
