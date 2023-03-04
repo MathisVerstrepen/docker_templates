@@ -14,7 +14,7 @@ Create a new directory and copy the contents from git:
 ```bash
 mkdir chromedriver-minimal && cd chromedriver-minimal
 git init
-git remote add -f origin git@github.com:MathisVerstrepen/docker_templates.git
+git remote add -f origin https://github.com/MathisVerstrepen/docker_templates.git
 git config core.sparseCheckout true
 git sparse-checkout init
 git sparse-checkout set selenium/chromedriver-minimal

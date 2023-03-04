@@ -23,7 +23,7 @@ Create a new directory and copy the contents from git:
 ```bash
 mkdir nuxt-dev && cd nuxt-dev
 git init
-git remote add -f origin git@github.com:MathisVerstrepen/docker_templates.git
+git remote add -f origin https://github.com/MathisVerstrepen/docker_templates.git
 git config core.sparseCheckout true
 git sparse-checkout init
 git sparse-checkout set nuxt3/nuxt-dev
