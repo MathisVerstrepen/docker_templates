@@ -1,0 +1,23 @@
+version: "3.9"
+
+services:
+  nuxt:
+    build:
+      context: .
+      dockerfile: .dockerfile
+    ports:
+      - "3200:3000"
+      - "24678:24678"
+    volumes:
+      - ./app.vue:/app/app.vue
+      - ./assets:/app/assets
+      - ./components:/app/components
+      - ./composables:/app/composables
+      - ./content:/app/content
+      - ./layouts:/app/layouts
+      - ./middleware:/app/middleware
+      - ./pages:/app/pages
+      - ./plugins:/app/plugins
+      - ./public:/app/public
+      - ./server:/app/server
+      - ./utils:/app/utils
