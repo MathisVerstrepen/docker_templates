@@ -11,7 +11,7 @@ Several things need to be configured before the first launch:
 ### Configuration tweak based on your system
 
 Enter your system hardware configuration [here](https://pgtune.leopard.in.ua/) and edit the file /conf/postgres.conf accordingly. \
-** Keep the line: listen_addresses = '' **
+**Keep the line: listen_addresses = ''**
 
 ### Edit envionnement variables
 
