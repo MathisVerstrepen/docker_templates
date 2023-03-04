@@ -7,6 +7,7 @@ This repository contains multiple Docker environments to facilitate the developm
 | PostgreSQL 15 | Docker compose setup with a configuration file, data persistence, and an initialization script for a PostgreSQL database. | / |
 | Selenium Chrome Python Full | Provide a full ready-to-use environment for running Selenium programs with Chrome in Python. | 1.67GB |
 | Selenium Chrome Python Minimal | Provide a minimal and lightweight environment for running Selenium programs with Chrome in Python. | 497MB |
+| Selenium Firefox & Geckodriver Python Full | Provide a full ready-to-use environment for running Selenium programs with Firefox & Geckodriver in Python. | 1.45GB |
 
 Each environment is provided as a separate Docker image or/and compose file, making it easy to select and use the environment that fits your needs.
 
