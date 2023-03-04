@@ -22,10 +22,10 @@ cd selenium/firefoxdriver-full
 
 Build the Docker image using the following command:
 ```bash
-sudo docker build -t selenium_chrome_full:latest -f .dockerfile .
+sudo docker build -t selenium_firefox_full:latest -f .dockerfile .
 ```
 
 Run the Docker container using the following command:
 ```bash
-sudo docker run selenium_chrome_full
+sudo docker run selenium_firefox_full
 ```
