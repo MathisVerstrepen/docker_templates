@@ -20,12 +20,12 @@ export default defineNuxtConfig({
             legacy: false,
             locale: 'en',
             messages: {
-            en: {
-                welcome: 'Welcome'
-            },
-            fr: {
-                welcome: 'Bienvenue'
-            }
+                en: {
+                    welcome: 'Welcome'
+                },
+                fr: {
+                    welcome: 'Bienvenue'
+                }
             }
         }
     },

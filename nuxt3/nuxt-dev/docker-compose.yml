@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: .dockerfile
     ports:
-      - "3200:3000"
+      - "3000:3000"
       - "24678:24678"
     volumes:
       - ./app.vue:/app/app.vue
