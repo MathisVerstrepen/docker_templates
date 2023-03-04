@@ -8,8 +8,6 @@
         <p>{{ $t('welcome') }}</p>
 
         <h1>My Nuxt 3 App</h1>
-
-        <p>{{useCounterStore.doubleCount}}</p>
     </div>
 </template>
 
